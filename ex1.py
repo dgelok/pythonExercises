@@ -1,30 +1,57 @@
+# #1
+# name = input("Hello! What is your name? ")
+# print(f"Hello, {name}! Nice to meet you.")
+
+# #2
+# name = input("WHAT IS YOUR NAME, PUNK???? ")
+# name = name.upper()
+# print(f"OH YEAH? YOUR NAME IS {name}???")
+# print(f"WELL GUESS WHAT - YOUR NAME HAS {len(name)} CHARACTERS!")
+
+# #3
+# noun1 = input("Noun: ")
+# noun2 = input("Another Noun: ")
+# adverb1 = input("Adverb: ")
+# adverb2 = input("Another adverb: ")
+# adjective1 = input("Adjective: ")
+# exclaimation = input("Exclaimation: ")
+# madlib = "While walking through a {} {}, you see a {}. '{}!', you {} shout. 'That\'s a {}!' Then you die, {}.".format(adjective1, 
+# noun1, noun2, exclaimation, adverb1, noun2, adverb2)
+# print(madlib)
+
+# # 73.0
+# # 82
+# # 2
+
+# #4
+# day = int(input('Day (0-6)? '))
+# dayref = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+# print(dayref[day])
 
 
-
-
-# greeting = "Hello %s, it is very nice to meet you and your friend %s!"
-# name_of_user = input("What is your name? ")
-# length_of_name = len(name_of_user)
-# if length_of_name > 0:
-#     name_of_friend = input("What is your friend's name? ")
-#     print(greeting % (name_of_user, name_of_friend))
+# #5
+# day = int(input('Day (0-6)? '))
+# dayref = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+# if day == 0 or day == 6:
+#     print("Sleep in!")
 # else:
-#     print("OK, I'll ask again some other time.")
+#     print("Go to work!")
 
+# #6
+# cTemp = input("temperature in celsius? > ")
+# fTemp = int(cTemp) * 1.8 + 32
+# print(f"{fTemp} F")
 
+#7
 
-
-# name_of_user = input("What is your name? ")
-# length_of_name = len(name_of_user)
-
-
-# if length_of_name > 0:
-#     name_of_friend = input("What is your friend's name? ")
-#     greeting = f"Hello {name_of_user}, it is very nice to meet you and your friend {name_of_friend}!"
-#     print(greeting)
-# elif length_of_name > 10:
-#     print("Wow, that's a long name")
-# else:
-#     print("OK, I'll ask again some other time.")
-
-
+mealPrice = int(input("How much was the meal? > "))
+serviceLevel = input("How was the service? > ")
+if serviceLevel == 'good':
+    tipamount = .20
+elif serviceLevel == "fair":
+    tipamount = .15
+else:
+    tipamount = .10
+total = mealPrice * tipamount + mealPrice
+print(f"Your tip amount is ${tipamount}.")
+print(f"Your total is ${total}.")

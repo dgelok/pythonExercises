@@ -66,15 +66,34 @@
 
 #9
 
-list1 = [[1, 3], [2, 4]]
-list2 = [[5, 2], [1, 0]]
-final = [[],[]]
-for i in range(2):
-    for j in range (2):
-        
+# list1 = [[1, 3], [2, 4]]
+# list2 = [[5, 2], [1, 0]]
+# final = [[0, 0], [0, 0]]
+# for i in range(2):
+#     for j in range(2):
+#         newnum = list1[i][j] + list2[i][j]
+#         final[i][j] = newnum
+# print(final)
 
 
+#10 --- ???
 
-#10
+# list1 = [[1, 3], [2, 4]]
+# list2 = [[5, 2], [1, 0]]
+# final = [[0, 0], [0, 0]]
+# for i in range(2):
+#     for j in range(2):
+#         newnum = list1[i][j] + list2[i][j]
+#         final[i][j] = newnum
+# print(final)
 
 #11
+
+# nums = [-4,-5,100,4,100,6,-4,3,6,0]
+# final = []
+# for num in nums:
+#     if num not in final:
+#         final.append(num)
+# print(final)
+
+#bonus

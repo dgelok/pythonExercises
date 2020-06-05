@@ -1,18 +1,20 @@
 # All initial inputs can be replaced with var = input(###)
 
 #1
-
-myString = "Hello, World!"
-final = myString.upper()
-print(final)
+def uppercase():
+    myString = "Hello, World!"
+    final = myString.upper()
+    print(final)
 
 #2 (assuming this meant lowercased)
 
-myString = "Hello, World!"
-final = myString.lower()
-print(final)
+def lowercase():
+    myString = "Hello, World!"
+    final = myString.lower()
+    print(final)
 
 #3
+
 
 myString = "Hello, World!"
 final = ""
@@ -80,3 +82,24 @@ for i in range(26):
         
     print(encoded)
 
+
+question = 4
+while True:
+    if question == 1:
+        uppercase()
+        break
+    elif question == 2:
+        lowercase()
+        break 
+    elif question == 3:
+        pass
+        break
+    elif question == 4:
+        pass
+        break
+    elif question == 5:
+        pass
+        break
+    elif question == 6:
+        pass
+        break 

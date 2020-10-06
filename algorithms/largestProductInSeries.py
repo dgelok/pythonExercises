@@ -61,6 +61,6 @@ def multiMe(x, str):
             maxProduct = total
     print(maxProduct)
 
-testString = "1023123"
+# testString = "1023123"
 multiMe(13, bigNum)
 

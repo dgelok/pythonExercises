@@ -25,7 +25,6 @@ def countme(x):
         myNum = collatz(myNum)
     return count
 
-
 myMax = 1
 topNum = 1
 

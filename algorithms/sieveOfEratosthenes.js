@@ -8,8 +8,8 @@ const sieve = (n) =>{
     console.log(myNums.length)
     
     // we now have myNums - an array of length n - where all the entries are true
-    // now we go through and remove all multiples
 
+    // now we go through and remove all multiples
     let p = 2;
     while (p*p < n) {
         if (myNums[p]) {
@@ -20,6 +20,9 @@ const sieve = (n) =>{
         p++
     }
 
+    
+    // at this point, myNums has true for primes, and false for all of the multiples of those primes
+    // if myNums[whatever] is true, print out its index
     for (let l = 0; l < n; l++) {
         if (myNums[l] === true) {
             console.log(l)
@@ -27,7 +30,6 @@ const sieve = (n) =>{
     }
 
     
-    // at this point, myNums has true for primes, and false for all of the multiples of those primes
 
 }
 

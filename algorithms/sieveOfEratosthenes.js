@@ -11,15 +11,14 @@ const sieve = (n) =>{
 
     // now we go through and remove all multiples
     let p = 2;
-    while (p*p < n) {
+    while (p <= Math.floor(n^(1/2))) {
         if (myNums[p]) {
             for (let y = (p*2); y < n; y += p) {
                 myNums[y] = false
             }
         }
-        p++
+        p++;
     }
-
     
     // at this point, myNums has true for primes, and false for all of the multiples of those primes
     // if myNums[whatever] is true, print out its index
@@ -28,9 +27,6 @@ const sieve = (n) =>{
             console.log(l)
         }
     }
-
-    
-
 }
 
 
